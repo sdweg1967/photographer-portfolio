@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArtVision | Профессиональная фотосъемка в Москве</title>
+    <meta name="description" content="Профессиональная фотосъемка: портреты, свадьбы, мероприятия. Индивидуальный подход, качественные снимки, доступные цены.">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">
+                    <span class="logo-icon">📸</span>
+                    ArtVision
+                </div>
+                <div class="nav-links">
+                    <a href="#portfolio">Портфолио</a>
+                    <a href="#services">Услуги</a>
+                    <a href="#about">Обо мне</a>
+                    <a href="#reviews">Отзывы</a>
+                    <a href="#contact">Контакты</a>
+                </div>
+                <div class="nav-cta">
+                    <a href="#contact" class="btn btn-primary">📅 Забронировать съемку</a>
+                </div>
+                <div class="mobile-menu-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">🎯 ПРОФЕССИОНАЛЬНЫЙ ФОТОГРАФ</div>
+                <h1>Превращаю моменты в <span class="highlight">вечные воспоминания</span></h1>
+                <p class="hero-subtitle">Портреты • Свадьбы • Мероприятия • Love Story • Семейные фотосессии</p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number" data-target="8">0</div>
+                        <div class="stat-label">лет опыта</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-target="500">0</div>
+                        <div class="stat-label">съемок</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">% довольных клиентов</div>
+                    </div>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#portfolio" class="btn btn-primary btn-large">📁 Смотреть портфолио</a>
+                    <a href="#contact" class="btn btn-secondary">💬 Бесплатная консультация</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <h2>Мое портфолио</h2>
+            <p class="section-subtitle">Лучшие работы за 8 лет профессиональной деятельности</p>
+
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Все работы</button>
+                <button class="filter-btn" data-filter="portrait">Портреты</button>
+                <button class="filter-btn" data-filter="wedding">Свадьбы</button>
+                <button class="filter-btn" data-filter="family">Семейные</button>
+                <button class="filter-btn" data-filter="event">Мероприятия</button>
+                <button class="filter-btn" data-filter="love">Love Story</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Portrait 1 -->
+                <div class="portfolio-item" data-category="portrait">
+                    <div class="portfolio-image">
+                        <div class="image-title">Ваше фото</div>
+                        <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Женский портрет">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Женский портрет</h3>
+                                <p>Студийная съемка</p>
+                                <button class="btn-view" data-image="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80">Посмотреть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wedding 1 -->
+                <div class="portfolio-item" data-category="wedding">
+                    <div class="portfolio-image">
+                        <div class="image-title">Ваше фото</div>
+                        <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Свадебная съемка">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Свадьба Алены и Максима</h3>
+                                <p>Ресторан "Grand Palace"</p>
+                                <button class="btn-view" data-image="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80">Посмотреть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Family 1 -->
+                <div class="portfolio-item" data-category="family">
+                    <div class="portfolio-image">
+                        <div class="image-title">Ваше фото</div>
+                        <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Семейная фотосессия">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Семья Ивановых</h3>
+                                <p>Парк Горького</p>
+                                <button class="btn-view" data-image="https://images.unsplash.com/photo-1529390079861-591de354faf5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80">Посмотреть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Event 1 -->
+                <div class="portfolio-item" data-category="event">
+                    <div class="portfolio-image">
+                        <div class="image-title">Ваше фото</div>
+                        <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Корпоративное мероприятие">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Корпоратив IT-компании</h3>
+                                <p>Loft "Красный Октябрь"</p>
+                                <button class="btn-view" data-image="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80">Посмотреть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Love Story 1 -->
+                <div class="portfolio-item" data-category="love">
+                    <div class="portfolio-image">
+                        <div class="image-title">Ваше фото</div>
+                        <img src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Love Story">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Love Story в парке</h3>
+                                <p>Осенняя прогулка</p>
+                                <button class="btn-view" data-image="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80">Посмотреть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portrait 2 -->
+                <div class="portfolio-item" data-category="portrait">
+                    <div class="portfolio-image">
+                        <div class="image-title">Ваше фото</div>
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Мужской портрет">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Мужской портрет</h3>
+                                <p>Съемка в студии</p>
+                                <button class="btn-view" data-image="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80">Посмотреть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wedding 2 -->
+                <div class="portfolio-item" data-category="wedding">
+                    <div class="portfolio-image">
+                        <div class="image-title">Ваше фото</div>
+                        <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Свадебная церемония">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Выкуп невесты</h3>
+                                <p>Традиционная церемония</p>
+                                <button class="btn-view" data-image="https://images.unsplash.com/photo-1465495976277-4387d4b0e4a6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80">Посмотреть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Family 2 -->
+                <div class="portfolio-item" data-category="family">
+                    <div class="portfolio-image">
+                        <div class="image-title">Ваше фото</div>
+                        <img src="https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Семейная прогулка">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-info">
+                                <h3>Семейная прогулка</h3>
+                                <p>Летний парк</p>
+                                <button class="btn-view" data-image="https://images.unsplash.com/photo-1511988617509-a57c8a288659?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1200&q=80">Посмотреть</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-cta">
+                <h3>Хотите такие же качественные фото?</h3>
+                <p>Забронируйте съемку и получите бесплатную консультацию</p>
+                <a href="#contact" class="btn btn-accent btn-large">📅 Забронировать съемку</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2>Мои услуги</h2>
+            <p class="section-subtitle">Индивидуальный подход к каждой съемке</p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">💍</div>
+                    <h3>Свадебная съемка</h3>
+                    <p class="service-price">от 25,000₽</p>
+                    <ul class="service-features">
+                        <li>8 часов съемки</li>
+                        <li>500+ обработанных фото</li>
+                        <li>Предсвадебная консультация</li>
+                        <li>Все фото в цветокоррекции</li>
+                        <li>50 фото в ретуши</li>
+                        <li>Срок обработки: 4 недели</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="btn btn-primary">Забронировать</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">👨‍👩‍👧‍👦</div>
+                    <h3>Семейная фотосессия</h3>
+                    <p class="service-price">от 8,000₽</p>
+                    <ul class="service-features">
+                        <li>2 часа съемки</li>
+                        <li>100+ обработанных фото</li>
+                        <li>Выбор локации</li>
+                        <li>Помощь с позами</li>
+                        <li>20 фото в ретуши</li>
+                        <li>Срок обработки: 2 недели</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="btn btn-primary">Забронировать</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎭</div>
+                    <h3>Портретная съемка</h3>
+                    <p class="service-price">от 6,000₽</p>
+                    <ul class="service-features">
+                        <li>1.5 часа съемки</li>
+                        <li>80+ обработанных фото</li>
+                        <li>Студия или локация</li>
+                        <li>Помощь с образами</li>
+                        <li>15 фото в ретуши</li>
+                        <li>Срок обработки: 10 дней</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="btn btn-primary">Забронировать</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">💑</div>
+                    <h3>Love Story</h3>
+                    <p class="service-price">от 7,000₽</p>
+                    <ul class="service-features">
+                        <li>2 часа съемки</li>
+                        <li>120+ обработанных фото</li>
+                        <li>Романтические локации</li>
+                        <li>Естественные эмоции</li>
+                        <li>25 фото в ретуши</li>
+                        <li>Срок обработки: 2 недели</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="btn btn-primary">Забронировать</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">🎉</div>
+                    <h3>Мероприятия</h3>
+                    <p class="service-price">от 10,000₽</p>
+                    <ul class="service-features">
+                        <li>4 часа съемки</li>
+                        <li>200+ обработанных фото</li>
+                        <li>Репортажная съемка</li>
+                        <li>Постановочные кадры</li>
+                        <li>30 фото в ретуши</li>
+                        <li>Срок обработки: 3 недели</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="btn btn-primary">Забронировать</a>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">👶</div>
+                    <h3>Детская съемка</h3>
+                    <p class="service-price">от 5,000₽</p>
+                    <ul class="service-features">
+                        <li>1 час съемки</li>
+                        <li>60+ обработанных фото</li>
+                        <li>Игровой формат</li>
+                        <li>Естественные эмоции</li>
+                        <li>15 фото в ретуши</li>
+                        <li>Срок обработки: 7 дней</li>
+                    </ul>
+                    <div class="service-cta">
+                        <a href="#contact" class="btn btn-primary">Забронировать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Обо мне</h2>
+                    <p class="about-subtitle">Профессиональный фотограф с 8-летним опытом</p>
+                    
+                    <div class="about-description">
+                        <p>Привет! Меня зовут Анна, и я профессиональный фотограф из Москвы. За 8 лет работы я провела более 500 съемок и помогла сотням людей сохранить самые важные моменты их жизни.</p>
+                        
+                        <p>Мой подход основан на внимании к деталям и создании комфортной атмосферы во время съемки. Я верю, что лучшие кадры получаются, когда люди расслаблены и наслаждаются процессом.</p>
+
+                        <div class="about-features">
+                            <div class="about-feature">
+                                <span class="feature-icon">🎓</span>
+                                <span>Образование: Высшая школа фотографии</span>
+                            </div>
+                            <div class="about-feature">
+                                <span class="feature-icon">📷</span>
+                                <span>Оборудование: Canon R5, Profoto освещение</span>
+                            </div>
+                            <div class="about-feature">
+                                <span class="feature-icon">💻</span>
+                                <span>Обработка: Lightroom, Photoshop, Capture One</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-cta">
+                        <a href="#contact" class="btn btn-accent">📞 Связаться со мной</a>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80" alt="Фотограф Анна">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section class="process">
+        <div class="container">
+            <h2>Как проходит съемка</h2>
+            <p class="section-subtitle">Простой и понятный процесс от заявки до готовых фото</p>
+
+            <div class="process-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Консультация</h3>
+                        <p>Обсуждаем ваши пожелания, выбираем локацию и составляем план съемки</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Подготовка</h3>
+                        <p>Помогаю с выбором образов, даю рекомендации по подготовке к съемке</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Съемка</h3>
+                        <p>Проводим съемку в комфортной атмосфере, работаем с естественными эмоциями</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3>Обработка</h3>
+                        <p>Тщательно обрабатываю все фото, выполняю цветокоррекцию и ретушь</p>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3>Результат</h3>
+                        <p>Передаю вам готовые фото в высоком качестве через защищенное облако</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>Отзывы клиентов</h2>
+            <p class="section-subtitle">Что говорят о моей работе</p>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">М</div>
+                        <div class="review-author">
+                            <h4>Мария и Алексей</h4>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Спасибо за прекрасные свадебные фото! Анна создала такую комфортную атмосферу, что мы даже не замечали камеру. Фото получились живыми и эмоциональными - именно такими, как мы хотели!"</p>
+                    <div class="review-date">Свадебная съемка • 15 декабря 2024</div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">К</div>
+                        <div class="review-author">
+                            <h4>Семья Комаровых</h4>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Впервые за 10 лет собрались на семейную фотосессию. Анна смогла найти подход к детям, фотосессия прошла весело и непринужденно. Теперь у нас есть замечательные фото для семейного альбома!"</p>
+                    <div class="review-date">Семейная съемка • 8 декабря 2024</div>
+                </div>
+
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">Д</div>
+                        <div class="review-author">
+                            <h4>Дарья</h4>
+                            <div class="review-rating">★★★★★</div>
+                        </div>
+                    </div>
+                    <p class="review-text">"Делала портретную съемку для профессионального портфолио. Анна не только прекрасный фотограф, но и отличный стилист! Помогла с образами и позами. Результат превзошел все ожидания!"</p>
+                    <div class="review-date">Портретная съемка • 1 декабря 2024</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2>Частые вопросы</h2>
+            <p class="section-subtitle">Ответы на популярные вопросы о фотосъемке</p>
+
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Сколько времени занимает обработка фото?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Срок обработки зависит от типа съемки: портреты - 7-10 дней, семейные - 2 недели, свадьбы - 3-4 недели. Все фото проходят цветокоррекцию, выбранные кадры - профессиональную ретушь.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Можно ли получить все исходные фото?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Я передаю только обработанные фото в цветокоррекции. Это профессиональный стандарт, который гарантирует единый стиль и качество изображений. Исходные файлы (RAW) не передаются.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Что входит в стоимость съемки?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>В стоимость входит: время фотографа, работа с освещением, отбор лучших кадров, цветокоррекция всех фото, ретушь выбранных кадров, передача фото через защищенное облако.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Нужно ли мне уметь позировать?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Нет! Я помогу вам с позами и создам комфортную атмосферу. Большинство клиентов никогда раньше не снимались профессионально - это нормально!</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Что делать, если погода испортилась?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Мы всегда имеем запасной вариант! Можно перенести съемку или провести ее в студии. Решение принимаем совместно с учетом ваших пожеланий.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <span>Можно ли заказать печать фото?</span>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Да, я сотрудничаю с профессиональной лабораторией и могу организовать печать фотоальбомов, фотокниг или отдельных снимков на качественной бумаге.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Забронируйте съемку</h2>
+            <p class="section-subtitle">Свяжитесь со мной для бесплатной консультации</p>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Контакты</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <strong>Телефон</strong>
+                            <a href="tel:+79998887766">+7 (999) 888-77-66</a>
+                            <span>Ежедневно с 10:00 до 20:00</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <strong>Email</strong>
+                            <a href="mailto:hello@artvision.ru">hello@artvision.ru</a>
+                            <span>Отвечаю в течение дня</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <strong>Соцсети</strong>
+                            <a href="https://vk.com/artvision" target="_blank">VK</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <strong>Студия</strong>
+                            <span>г. Москва, ул. Творческая, 15</span>
+                            <span>м. Чистые пруды</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-features">
+                        <h4>Почему выбирают меня:</h4>
+                        <ul>
+                            <li>✅ 8 лет профессионального опыта</li>
+                            <li>✅ Естественные и живые фото</li>
+                            <li>✅ Индивидуальный подход к каждому</li>
+                            <li>✅ Современное профессиональное оборудование</li>
+                            <li>✅ Быстрая и качественная обработка</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <div class="form-card">
+                        <h3>Оставьте заявку</h3>
+                        <p>Я свяжусь с вами для бесплатной консультации</p>
+
+                        <form class="contact-form" id="photographyForm">
+                            <div class="form-group">
+                                <input type="text" name="name" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="tel" name="phone" placeholder="Ваш телефон" required>
+                            </div>
+                            <div class="form-group">
+                                <select name="service" required>
+                                    <option value="">Выберите тип съемки</option>
+                                    <option value="wedding">Свадебная съемка</option>
+                                    <option value="family">Семейная фотосессия</option>
+                                    <option value="portrait">Портретная съемка</option>
+                                    <option value="love">Love Story</option>
+                                    <option value="event">Мероприятие</option>
+                                    <option value="child">Детская съемка</option>
+                                    <option value="consultation">Консультация</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <textarea name="message" placeholder="Расскажите о ваших пожеланиях..." rows="4"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-accent btn-large">
+                                📅 Отправить заявку
+                            </button>
+                        </form>
+
+                        <div class="form-success" id="formSuccess" style="display: none;">
+                            <div class="success-icon">✅</div>
+                            <h4>Заявка отправлена!</h4>
+                            <p>Свяжусь с вами в течение 2 часов</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-icon">📸</span>
+                        ArtVision
+                    </div>
+                    <p>Профессиональная фотосъемка в Москве. Сохраняю ваши лучшие моменты навсегда.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link">VK</a>
+                        <a href="#" class="social-link">WhatsApp</a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Услуги</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Свадебная съемка</a></li>
+                        <li><a href="#services">Семейная фотосессия</a></li>
+                        <li><a href="#services">Портретная съемка</a></li>
+                        <li><a href="#services">Love Story</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>Контакты</h4>
+                    <div class="footer-contacts">
+                        <a href="tel:+79998887766">+7 (999) 888-77-66</a>
+                        <a href="mailto:hello@artvision.ru">hello@artvision.ru</a>
+                        <span>Москва, ул. Творческая, 15</span>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>График</h4>
+                    <div class="footer-schedule">
+                        <p>Пн-Вс: 10:00-20:00</p>
+                        <p>Съемки: по записи</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 ArtVision. Профессиональная фотосъемка.</p>
+                <p>Создано с ❤️ для ваших воспоминаний</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+
+    <!-- Scroll to Top -->
+    <button id="scrollToTop" class="scroll-to-top">
+        <span>↑</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
